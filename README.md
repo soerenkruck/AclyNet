@@ -1,6 +1,6 @@
 # AclyNet
 An easy Java library for simple networking. Simply send any data.
-[Download Library (Jar)](https://github.com/soerenkruck/AclyNet/blob/main/out/artifacts/AclyNet_jar/AclyNet.jar)
+[Download Library (Jar)](https://github.com/soerenkruck/AclyNet/raw/main/out/artifacts/AclyNet_jar/AclyNet.jar)
 
 ## Guiding Principal
 Dealing intuitively with data. Build your own Java-based network in few minutes.
