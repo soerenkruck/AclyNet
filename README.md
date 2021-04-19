@@ -9,5 +9,5 @@ DataPackage data = new DataPackage();
 data.addData("message", "Hello, world!");
 
 Sender sender = new Sender("127.0.0.1", 2626);
-sender.sendDataPackages(data)
+sender.sendDataPackages(data);
 ```
