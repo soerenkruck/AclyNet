@@ -7,4 +7,7 @@
 package com.doerte.actions;
 
 public class Action {
+
+    public String name;
+
 }
