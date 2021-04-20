@@ -7,6 +7,7 @@
 package com.doerte.base;
 
 import com.doerte.actions.Action;
+import com.doerte.base.Data.Data;
 import com.doerte.base.Data.DataPackage;
 
 import java.io.IOException;
@@ -78,6 +79,9 @@ public class Sender {
         this.port = port;
 
         this.ownIP = Hub.getOwnIPV4Adress();
+
+        Data data = new Data(null, null, null);
+        data.fillDataFromFile(null);
 
         try {
             socket = new Socket(this.destinationIP, this.port);

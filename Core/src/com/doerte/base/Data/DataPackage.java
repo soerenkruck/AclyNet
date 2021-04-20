@@ -28,11 +28,14 @@ public class DataPackage {
         this.header = "§id=" + this.id + ";§size=" + this.data.size();
     }
 
-    public boolean addData(Data data) {
+    public void addData(Data data) {
         if (this.data.get(this.data.size() - 1).dataType == DataType.End)
             this.data.remove(this.data.size() - 1);
 
         this.data.add(data);
-        return true;
+    }
+
+    public void addData(String title, String content) {
+        this.addData(new Data(title, content, DataType.Content));
     }
 }
